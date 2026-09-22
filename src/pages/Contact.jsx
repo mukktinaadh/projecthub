@@ -10,6 +10,8 @@ const courseOptions = [
   "Other",
 ];
 
+const FORMSPREE_ENDPOINT = "https://formspree.io/f/xvkgaqyr";
+
 const initialValues = {
   name: "",
   email: "",
@@ -55,6 +57,8 @@ export default function Contact() {
   });
   const [errors, setErrors] = useState({});
   const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState("");
 
   const handleChange = (event) => {
     const { name, value } = event.target;
@@ -64,15 +68,46 @@ export default function Contact() {
     }
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
     const nextErrors = validate(values);
     setErrors(nextErrors);
     if (Object.keys(nextErrors).length > 0) {
       return;
     }
-    setSubmitted(true);
-    setValues(initialValues);
+
+    setSubmitting(true);
+    setSubmitError("");
+
+    try {
+      const formData = new FormData();
+      formData.append("name", values.name);
+      formData.append("email", values.email);
+      formData.append("phone", values.phone);
+      formData.append("course", values.course);
+      formData.append("requirement", values.requirement);
+      formData.append("message", values.message);
+
+      const response = await fetch(FORMSPREE_ENDPOINT, {
+        method: "POST",
+        body: formData,
+        headers: {
+          Accept: "application/json",
+        },
+      });
+
+      if (response.ok) {
+        setSubmitted(true);
+        setValues(initialValues);
+      } else {
+        const data = await response.json();
+        throw new Error(data.error || "Failed to send enquiry. Please try again.");
+      }
+    } catch (error) {
+      setSubmitError(error.message);
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   const inputClass = (name) =>
@@ -101,7 +136,9 @@ export default function Contact() {
                 </span>
                 <div>
                   <h3>Email</h3>
-                  <p>hello@projecthub.example</p>
+                  <a href="mailto:mukktinaadh@gmail.com" className="info-email">
+                    mukktinaadh@gmail.com
+                  </a>
                 </div>
               </li>
               <li>
@@ -151,8 +188,9 @@ export default function Contact() {
                 </span>
                 <h2>Thanks! Your project enquiry has been received.</h2>
                 <p>
-                  Our team will reach out to you within one working day with
-                  matching project options.
+                  We&apos;ve sent a confirmation to <strong>{values.email}</strong>.
+                  Our team will reach out within one working day with matching
+                  project options.
                 </p>
                 <div className="success-actions">
                   <Link to="/projects" className="btn btn-primary">
@@ -275,11 +313,18 @@ export default function Contact() {
                   )}
                 </div>
 
-                <button type="submit" className="btn btn-primary btn-block">
-                  Submit Enquiry
+                <button
+                  type="submit"
+                  className="btn btn-primary btn-block"
+                  disabled={submitting}
+                >
+                  {submitting ? "Sending…" : "Submit Enquiry"}
                 </button>
+                {submitError && (
+                  <p className="form-error form-note">{submitError}</p>
+                )}
                 <p className="form-note">
-                  This is a demo form — submissions are not sent anywhere.
+                  Your enquiry will be sent directly to our team.
                 </p>
               </form>
             )}

@@ -1029,6 +1029,17 @@ a {
   font-size: 0.95rem;
 }
 
+.info-email {
+  color: var(--color-primary);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.info-email:hover {
+  text-decoration: underline;
+  color: var(--color-primary-strong);
+}
+
 .info-note {
   padding: var(--space-5);
   background: var(--color-primary-soft);
