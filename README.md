@@ -44,7 +44,8 @@ src/
 │   ├── Footer.jsx       Brand, nav links, contact, copyright
 │   ├── ProjectCard.jsx  One project via `project` prop
 │   ├── CategoryCard.jsx One course category via `category` prop
-│   └── SearchBar.jsx    Controlled search input via `value`/`onChange`
+│   ├── SearchBar.jsx    Controlled search input via `value`/`onChange`
+│   └── HeroCarousel.jsx Full-width hero slider (autoplay, arrows, dots, swipe)
 ├── pages/               Compose components, own page concerns
 │   ├── Home.jsx
 │   ├── Projects.jsx

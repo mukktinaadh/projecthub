@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { projects, categories } from "../data/projects";
 import ProjectCard from "../components/ProjectCard";
 import CategoryCard from "../components/CategoryCard";
-import HorizontalCarousel from "../components/HorizontalCarousel";
+import HeroCarousel from "../components/HeroCarousel";
 
 const featuredProjects = [1, 2, 8].map((id) =>
   projects.find((project) => project.id === id)
@@ -80,8 +80,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Trending carousel */}
-      <HorizontalCarousel />
+      {/* Full-width highlights carousel */}
+      <HeroCarousel />
 
       {/* Categories */}
       <section className="section">
