@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Abstract illustration of a mobile e-commerce app with product cards">
+  <rect width="800" height="500" fill="#eff6ff"/>
+  <circle cx="130" cy="120" r="150" fill="#2563eb" opacity="0.08"/>
+  <circle cx="680" cy="400" r="180" fill="#2563eb" opacity="0.07"/>
+
+  <!-- phone -->
+  <rect x="300" y="90" width="200" height="340" rx="32" fill="#1e3a8a"/>
+  <rect x="312" y="102" width="176" height="316" rx="22" fill="#ffffff"/>
+  <rect x="360" y="112" width="80" height="10" rx="5" fill="#e2e8f0"/>
+  <!-- app header -->
+  <rect x="330" y="136" width="90" height="14" rx="7" fill="#2563eb"/>
+  <rect x="430" y="136" width="40" height="14" rx="7" fill="#bfdbfe"/>
+  <!-- product cards -->
+  <rect x="330" y="166" width="76" height="86" rx="12" fill="#dbeafe"/>
+  <rect x="414" y="166" width="76" height="86" rx="12" fill="#dbeafe"/>
+  <rect x="330" y="180" width="46" height="40" rx="8" fill="#60a5fa"/>
+  <rect x="414" y="180" width="46" height="40" rx="8" fill="#3b82f6"/>
+  <rect x="330" y="228" width="60" height="9" rx="4.5" fill="#93c5fd"/>
+  <rect x="414" y="228" width="60" height="9" rx="4.5" fill="#93c5fd"/>
+  <rect x="330" y="262" width="76" height="86" rx="12" fill="#dbeafe"/>
+  <rect x="414" y="262" width="76" height="86" rx="12" fill="#dbeafe"/>
+  <rect x="330" y="276" width="46" height="40" rx="8" fill="#3b82f6"/>
+  <rect x="414" y="276" width="46" height="40" rx="8" fill="#60a5fa"/>
+  <rect x="330" y="324" width="60" height="9" rx="4.5" fill="#93c5fd"/>
+  <rect x="414" y="324" width="60" height="9" rx="4.5" fill="#93c5fd"/>
+  <!-- cart bar -->
+  <rect x="330" y="364" width="140" height="34" rx="17" fill="#2563eb"/>
+  <path d="M352 376h6l6 18h20l6-14h-28" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="404" y="377" width="48" height="8" rx="4" fill="#bfdbfe"/>
+
+  <!-- floating cards -->
+  <rect x="120" y="180" width="120" height="72" rx="14" fill="#ffffff" stroke="#bfdbfe" stroke-width="2"/>
+  <circle cx="152" cy="216" r="14" fill="#2563eb"/>
+  <rect x="176" y="202" width="52" height="10" rx="5" fill="#bfdbfe"/>
+  <rect x="176" y="222" width="40" height="10" rx="5" fill="#dbeafe"/>
+  <rect x="560" y="150" width="120" height="72" rx="14" fill="#2563eb"/>
+  <path d="M590 186h6l6 18h20l6-14h-28" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="640" y="190" width="28" height="8" rx="4" fill="#bfdbfe"/>
+  <rect x="560" y="300" width="130" height="64" rx="14" fill="#ffffff" stroke="#bfdbfe" stroke-width="2"/>
+  <path d="M584 332l10 10 18-20" fill="none" stroke="#10b981" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="622" y="328" width="52" height="10" rx="5" fill="#dbeafe"/>
+</svg>

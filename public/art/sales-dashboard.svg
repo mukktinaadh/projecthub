@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Abstract illustration of a business analytics dashboard">
+  <rect width="800" height="500" fill="#f0fdfa"/>
+  <circle cx="660" cy="100" r="150" fill="#0d9488" opacity="0.08"/>
+  <circle cx="130" cy="430" r="180" fill="#0d9488" opacity="0.07"/>
+
+  <!-- dashboard -->
+  <rect x="140" y="110" width="460" height="300" rx="20" fill="#ffffff" stroke="#99f6e4" stroke-width="2"/>
+  <!-- KPI cards -->
+  <rect x="170" y="140" width="130" height="70" rx="12" fill="#f0fdfa"/>
+  <rect x="186" y="158" width="60" height="12" rx="6" fill="#5eead4"/>
+  <rect x="186" y="182" width="90" height="12" rx="6" fill="#99f6e4"/>
+  <rect x="320" y="140" width="130" height="70" rx="12" fill="#f0fdfa"/>
+  <rect x="336" y="158" width="60" height="12" rx="6" fill="#2dd4bf"/>
+  <rect x="336" y="182" width="90" height="12" rx="6" fill="#99f6e4"/>
+  <rect x="470" y="140" width="130" height="70" rx="12" fill="#14b8a6"/>
+  <rect x="486" y="158" width="60" height="12" rx="6" fill="#ffffff" opacity="0.8"/>
+  <rect x="486" y="182" width="90" height="12" rx="6" fill="#99f6e4"/>
+  <!-- area chart -->
+  <path d="M170 400v-80q30-18 60-8t60-26 60-10 60-30 60-12 60-24v190z" fill="#99f6e4" opacity="0.5"/>
+  <path d="M170 400v-60q40-10 70-22 40-16 80-8 30 6 60-10 30-16 60-18 40-4 60-16" fill="none" stroke="#0d9488" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="520" cy="268" r="10" fill="#0d9488" stroke="#ffffff" stroke-width="3"/>
+
+  <!-- rupee / growth chip -->
+  <circle cx="650" cy="320" r="46" fill="#0d9488"/>
+  <path d="M650 296v48M638 308c0-7 5-12 12-12s12 5 12 12-5 12-12 12-12 5-12 12 5 12 12 12 12-5 12-12" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+</svg>

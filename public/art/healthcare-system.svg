@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Abstract illustration of a medical cross with health charts">
+  <rect width="800" height="500" fill="#fef2f2"/>
+  <circle cx="670" cy="110" r="150" fill="#dc2626" opacity="0.07"/>
+  <circle cx="130" cy="420" r="170" fill="#dc2626" opacity="0.06"/>
+
+  <!-- records folder -->
+  <rect x="150" y="120" width="360" height="280" rx="18" fill="#ffffff" stroke="#fecaca" stroke-width="2"/>
+  <rect x="150" y="120" width="360" height="56" rx="18" fill="#fee2e2"/>
+  <rect x="150" y="156" width="360" height="20" fill="#fee2e2"/>
+  <rect x="178" y="140" width="120" height="14" rx="7" fill="#f87171"/>
+  <!-- rows -->
+  <g fill="#fee2e2">
+    <rect x="178" y="200" width="304" height="34" rx="8"/>
+    <rect x="178" y="246" width="304" height="34" rx="8"/>
+    <rect x="178" y="292" width="304" height="34" rx="8"/>
+  </g>
+  <g fill="#ef4444">
+    <circle cx="200" cy="217" r="8"/>
+    <circle cx="200" cy="263" r="8"/>
+    <circle cx="200" cy="309" r="8"/>
+  </g>
+  <g fill="#fca5a5">
+    <rect x="222" y="210" width="150" height="12" rx="6"/>
+    <rect x="222" y="256" width="120" height="12" rx="6"/>
+    <rect x="222" y="302" width="170" height="12" rx="6"/>
+  </g>
+  <!-- heartbeat line -->
+  <polyline points="430,309 460,309 470,290 482,328 494,296 504,309 460,309" fill="none" stroke="#dc2626" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- medical cross chip -->
+  <rect x="560" y="200" width="140" height="140" rx="32" fill="#dc2626"/>
+  <rect x="610" y="230" width="40" height="80" rx="10" fill="#ffffff"/>
+  <rect x="590" y="250" width="80" height="40" rx="10" fill="#ffffff"/>
+
+  <!-- pulse chip -->
+  <circle cx="600" cy="400" r="40" fill="#ffffff" stroke="#fecaca" stroke-width="2"/>
+  <polyline points="580,400 594,400 600,386 608,414 614,400 622,400" fill="none" stroke="#dc2626" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

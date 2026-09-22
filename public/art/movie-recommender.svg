@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Abstract illustration of a film reel and report charts">
+  <rect width="800" height="500" fill="#fdf2f8"/>
+  <circle cx="140" cy="120" r="150" fill="#db2777" opacity="0.08"/>
+  <circle cx="680" cy="420" r="180" fill="#db2777" opacity="0.07"/>
+
+  <!-- film strip -->
+  <rect x="120" y="120" width="560" height="130" rx="14" fill="#be185d"/>
+  <g fill="#fce7f3">
+    <rect x="140" y="140" width="70" height="50" rx="8"/>
+    <rect x="240" y="140" width="70" height="50" rx="8"/>
+    <rect x="340" y="140" width="70" height="50" rx="8"/>
+    <rect x="440" y="140" width="70" height="50" rx="8"/>
+    <rect x="540" y="140" width="70" height="50" rx="8"/>
+  </g>
+  <g fill="#f9a8d4">
+    <rect x="140" y="206" width="70" height="14" rx="7"/>
+    <rect x="240" y="206" width="70" height="14" rx="7"/>
+    <rect x="340" y="206" width="70" height="14" rx="7"/>
+    <rect x="440" y="206" width="70" height="14" rx="7"/>
+    <rect x="540" y="206" width="70" height="14" rx="7"/>
+  </g>
+  <circle cx="270" cy="250" r="26" fill="#be185d"/>
+  <path d="M262 238l22 12-22 12z" fill="#ffffff"/>
+
+  <!-- ratings card -->
+  <rect x="180" y="290" width="300" height="140" rx="16" fill="#ffffff" stroke="#fbcfe8" stroke-width="2"/>
+  <rect x="206" y="314" width="120" height="12" rx="6" fill="#f9a8d4"/>
+  <rect x="206" y="340" width="90" height="12" rx="6" fill="#fce7f3"/>
+  <rect x="206" y="364" width="140" height="12" rx="6" fill="#fce7f3"/>
+  <rect x="206" y="388" width="70" height="12" rx="6" fill="#fce7f3"/>
+
+  <!-- star rating chip -->
+  <circle cx="580" cy="330" r="42" fill="#db2777"/>
+  <path d="M580 308l8.5 17 19 3-13.5 13.5 3 19-17-9-17 9 3-19-13.5-13.5 19-3z" fill="#ffffff"/>
+  <rect x="560" y="386" width="40" height="10" rx="5" fill="#f9a8d4"/>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Abstract illustration of a task board with moving cards">
+  <rect width="800" height="500" fill="#fff7ed"/>
+  <circle cx="670" cy="110" r="150" fill="#ea580c" opacity="0.08"/>
+  <circle cx="120" cy="420" r="170" fill="#ea580c" opacity="0.07"/>
+
+  <!-- board -->
+  <rect x="150" y="110" width="500" height="300" rx="20" fill="#ffffff" stroke="#fed7aa" stroke-width="2"/>
+  <!-- column 1 -->
+  <rect x="178" y="138" width="130" height="12" rx="6" fill="#fdba74"/>
+  <rect x="178" y="164" width="130" height="64" rx="10" fill="#ffedd5"/>
+  <rect x="192" y="180" width="80" height="9" rx="4.5" fill="#fdba74"/>
+  <rect x="192" y="200" width="56" height="9" rx="4.5" fill="#fed7aa"/>
+  <rect x="178" y="242" width="130" height="64" rx="10" fill="#ffedd5"/>
+  <rect x="192" y="258" width="72" height="9" rx="4.5" fill="#fdba74"/>
+  <!-- column 2 -->
+  <rect x="336" y="138" width="130" height="12" rx="6" fill="#fb923c"/>
+  <rect x="336" y="164" width="130" height="64" rx="10" fill="#ffedd5"/>
+  <rect x="350" y="180" width="84" height="9" rx="4.5" fill="#fb923c"/>
+  <rect x="350" y="200" width="60" height="9" rx="4.5" fill="#fed7aa"/>
+  <!-- column 3 -->
+  <rect x="494" y="138" width="130" height="12" rx="6" fill="#ea580c"/>
+  <rect x="494" y="164" width="130" height="64" rx="10" fill="#ffedd5"/>
+  <rect x="508" y="180" width="76" height="9" rx="4.5" fill="#ea580c"/>
+  <rect x="508" y="200" width="52" height="9" rx="4.5" fill="#fed7aa"/>
+  <!-- floating card being dragged -->
+  <rect x="320" y="270" width="150" height="90" rx="12" fill="#ffffff" stroke="#ea580c" stroke-width="3"/>
+  <rect x="336" y="290" width="100" height="10" rx="5" fill="#fdba74"/>
+  <rect x="336" y="312" width="70" height="10" rx="5" fill="#fed7aa"/>
+  <circle cx="452" cy="342" r="6" fill="#ea580c"/>
+  <circle cx="452" cy="330" r="6" fill="#fb923c" opacity="0.6"/>
+  <circle cx="452" cy="318" r="6" fill="#fdba74" opacity="0.4"/>
+
+  <!-- check chip -->
+  <circle cx="640" cy="360" r="40" fill="#ea580c"/>
+  <path d="M624 360l11 11 21-24" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
